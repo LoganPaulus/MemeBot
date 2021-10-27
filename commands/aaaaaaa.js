@@ -4,7 +4,7 @@ exports.run = async (client,message,args) => {
     const permEmbed = new Discord.MessageEmbed()
     .setDescription(`${message.author.username} you do not have permission to execute this command!`)
     .setFooter("© 2021 Go fuck yourself")
-    .setColor('#2e42c4')
+    .setColor('#2F3136')
     .setTimestamp()
     
 

@@ -14,7 +14,7 @@ exports.run = async (client,message,args) => {
     let page = 1 
     
     const embed = new Discord.MessageEmbed() 
-    .setColor("BLUE") 
+    .setColor("#2F3136") 
     .setFooter(`Page ${page} of ${pages.length} || Made by Swaglord69420#6969`)
     .setDescription(pages[page-1])
     embed.setTitle(pagesTitle[page-1])
