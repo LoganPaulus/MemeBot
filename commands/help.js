@@ -10,7 +10,7 @@ exports.run = async (client,message,args) => {
     [Google](https://www.google.com/)
     [Stack Overflow](https://stackoverflow.com/)
     [Discord.js](https://discord.js.org/#/)
-    Also if ur gonna suggest buttons, then fuck off!`]
+    [GEO's World](https://discord.gg/9ffdt32PEF)`]
     let page = 1 
     
     const embed = new Discord.MessageEmbed() 

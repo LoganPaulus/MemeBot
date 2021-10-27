@@ -15,8 +15,6 @@ exports.run = async (bot,message,args) => {
     .setFooter("Fresh memes for r/okbuddyretard or r/memes")
     .setImage(url = `${randomMeme.data.url}`)
     .setColor("#ff0000");
-
-
     message.channel.send(memeEmbed)
    
 
