@@ -1,10 +1,8 @@
 const Discord =require("discord.js")
-let footer_name = process.env.footer_name;
 exports.run = async (client,message,args) => {
     let pagesTitle = [`Commands`, `Credits`]
     let pages = ["```" + `    .SomeSecretCommand - Nahh....
     .meme - displays a meme
-    .joke - displays a meme
     .help - You already know what it does`+"```"
     , `Very helpful resources used:
     [Google](https://www.google.com/)
@@ -53,11 +51,6 @@ exports.run = async (client,message,args) => {
     })
        
 
-
-
-    
-
-    
 
 }   
 

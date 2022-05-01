@@ -6,17 +6,7 @@ exports.run = async (client,message,args) => {
     .setFooter("© 2021 Go fuck yourself")
     .setColor('#2F3136')
     .setTimestamp()
-    
-
     message.channel.send(permEmbed)
-
-
- 
-
-    
-
-    
-
 }   
 
 exports.help = {
