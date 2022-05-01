@@ -1,6 +1,7 @@
 const fetch = require('node-fetch');
 const Discord =require("discord.js")
 const { memeCommand } = require('../config.js');
+//replace the link if you want to change the subreddit or something
 const link = ['https://www.reddit.com/r/okbuddyretard/.json?sort=top&t=week']
 
 exports.run = async (bot,message,args) => {
